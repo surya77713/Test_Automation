@@ -27,6 +27,7 @@ public class Common_methods {
          FileInputStream fiss=new FileInputStream(fis);
          Properties prop=new Properties();
          prop.load(fiss);
+
          return prop;
 
 
