@@ -9,18 +9,18 @@ public class new_study_creation_method extends Login_method {
 
         driver.findElement(new_study).click();
         driver.findElement(Study_Number).sendKeys(prop.getProperty("Study_number"));
-        driver.findElement().sendKeys(prop.getProperty(""));
-        driver.findElement(Study_Number).sendKeys(prop.getProperty("Study_number"));
-        driver.findElement(Study_Number).sendKeys(prop.getProperty("Study_number"));
-        driver.findElement(Study_Number).sendKeys(prop.getProperty("Study_number"));
-        driver.findElement(Study_Number).sendKeys(prop.getProperty("Study_number"));
-        driver.findElement(Study_Number).sendKeys(prop.getProperty("Study_number"));
-        driver.findElement(Study_Number).sendKeys(prop.getProperty("Study_number"));
-        driver.findElement(Study_Number).sendKeys(prop.getProperty("Study_number"));
-        driver.findElement(Study_Number).sendKeys(prop.getProperty("Study_number"));
-        driver.findElement(Study_Number).sendKeys(prop.getProperty("Study_number"));
-        driver.findElement(Study_Number).sendKeys(prop.getProperty("Study_number"));
-        driver.findElement(Study_Number).sendKeys(prop.getProperty("Study_number"));
+        // driver.findElement().sendKeys(prop.getProperty(""));
+        // driver.findElement(Study_Number).sendKeys(prop.getProperty("Study_number"));
+        // driver.findElement(Study_Number).sendKeys(prop.getProperty("Study_number"));
+        // driver.findElement(Study_Number).sendKeys(prop.getProperty("Study_number"));
+        // driver.findElement(Study_Number).sendKeys(prop.getProperty("Study_number"));
+        // driver.findElement(Study_Number).sendKeys(prop.getProperty("Study_number"));
+        // driver.findElement(Study_Number).sendKeys(prop.getProperty("Study_number"));
+        // driver.findElement(Study_Number).sendKeys(prop.getProperty("Study_number"));
+        // driver.findElement(Study_Number).sendKeys(prop.getProperty("Study_number"));
+        // driver.findElement(Study_Number).sendKeys(prop.getProperty("Study_number"));
+        // driver.findElement(Study_Number).sendKeys(prop.getProperty("Study_number"));
+        // driver.findElement(Study_Number).sendKeys(prop.getProperty("Study_number"));
 
 
 
