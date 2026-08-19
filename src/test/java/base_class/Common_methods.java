@@ -2,7 +2,7 @@ package base_class;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-import org.openqa.selenium.WebElement;
+
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
@@ -33,11 +33,11 @@ public class Common_methods {
 
 
      }
-     public void drop_down(WebElement path){
-         Select s=new Select(path);
-     }
+    //  public void drop_down(WebElement path){
+    //      Select s=new Select(path);
+    //  }
 
-     public void Waits(int time){
+     public static void Waits(int time){
        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(time));
      }
 
