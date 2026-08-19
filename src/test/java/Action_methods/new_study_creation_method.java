@@ -7,6 +7,10 @@ public class new_study_creation_method extends Login_method {
 
         Waits(5000);
        driver.findElement(new_study).click();
+ 
+        driver.findElement(new_study).click();
+        //   driver.findElement(new_study).click();
+       
         driver.findElement(Study_Number).sendKeys(prop.getProperty("Study_number"));
         // driver.findElement().sendKeys(prop.getProperty(""));
         // driver.findElement(Study_Number).sendKeys(prop.getProperty("Study_number"));
@@ -24,13 +28,14 @@ public class new_study_creation_method extends Login_method {
 
 
 
+        driver .quit();
 
 
 
 
 
 
+ }
 
 
     }
-}
