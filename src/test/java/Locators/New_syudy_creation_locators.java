@@ -33,7 +33,7 @@ public class New_syudy_creation_locators {
 //    public static By Buffer_Volume=By.xpath("//input[@placeholder='Enter Buffer Volume']");
 //    public static By Buffer_Volume=By.xpath("//input[@placeholder='Enter Buffer Volume']");
 //    public static By Buffer_Volume=By.xpath("//input[@placeholder='Enter Buffer Volume']");
-//    public static By Buffer_Volume=By.xpath("//input[@placeholder='Enter Buffer Volume']");
+//    public static By Buffer_Volume=By.xpath("//input[@placeholder='Enter Buffer Volume']");   
 
 
 

@@ -2,7 +2,7 @@ package Action_methods;
 
 
 import base_class.Common_methods;
-import org.openqa.selenium.By;
+
 
 import static Locators.Login_locators.*;
 import static Locators.New_syudy_creation_locators.*;
@@ -31,7 +31,7 @@ public  class Login_method extends Common_methods {
             System.out.println(Errors);
         }
 
-             driver.findElement(new_study).click();
+           driver.findElement(new_study).click();
 
     }
 
