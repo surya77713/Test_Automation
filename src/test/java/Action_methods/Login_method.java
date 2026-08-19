@@ -12,7 +12,7 @@ import java.util.Properties;
 public  class Login_method extends Common_methods {
     static Properties prop;
     public void Login()throws Exception {
-        prop = properties("C:\\Users\\nomu\\IdeaProjects\\test1\\src\\test\\properties");
+        prop = properties("D:\\OneDrive - Endpoint Data Analytics\\Sk User\\VS_code_test\\Test_Automation\\src\\test\\properties");
         open_Application("http://192.168.0.12/GAJA_eSource_2.0");
         driver.findElement(username).sendKeys(prop.getProperty("user_name"));
         driver.findElement(password).sendKeys(prop.getProperty("password"));
