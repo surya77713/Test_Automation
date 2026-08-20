@@ -26,12 +26,20 @@ public  class Login_method extends Common_methods {
             } else {
 
                 System.out.println("Logedin");
+
             }
+
+
         } catch (Exception Errors) {
             System.out.println(Errors);
         }
+        try{
+            driver.findElement(new_study).click();
+        }catch (Exception e){
+            System.out.println(e);
+        }
 
-             driver.findElement(new_study).click();
+
 
     }
 

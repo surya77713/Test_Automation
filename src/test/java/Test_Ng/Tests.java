@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 
 
-public class Tests {
+public class  Tests {
     @Test
   public   void Forlogin()throws Exception{
         Login_method Act=new Login_method();
