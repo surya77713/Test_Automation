@@ -5,7 +5,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
-
+import org.openqa.selenium.By;
 import java.io.File;
 import java.io.FileInputStream;
 import java.time.Duration;
@@ -13,7 +13,7 @@ import java.util.Properties;
 
 public class Common_methods {
   public   static   ChromeDriver driver ;
-  public    static  Select s;
+
    public   ChromeDriver open_Application(String url){
         WebDriverManager.chromedriver().setup();
         driver=new ChromeDriver();

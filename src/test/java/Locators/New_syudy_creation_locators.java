@@ -1,7 +1,7 @@
 package Locators;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
+
 
 public class New_syudy_creation_locators {
     public static By new_study=By.xpath("//button[@ng-click='NewStudy()']");
